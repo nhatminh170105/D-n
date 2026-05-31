@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Huyền Thoại Tứ Tộc</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#101010;
+    color:white;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
+    url("https://images.unsplash.com/photo-1635322966219-b75ed372eb01");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:70px;
+    color:#55ff55;
+    text-shadow:0 0 15px #55ff55;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:24px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 35px;
+    background:#55ff55;
+    color:black;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+.title{
+    text-align:center;
+    color:#55ff55;
+    margin-bottom:40px;
+    font-size:42px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1c1c1c;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    color:#55ff55;
+    margin-bottom:10px;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+<div>
+<h1>HUYỀN THOẠI TỨ TỘC</h1>
+<p>Boss Khủng • Vũ Khí Huyền Thoại • Nông Trại Độc Quyền</p>
+<a href="#server" class="btn">Tham Gia Ngay</a>
+</div>
+</header>
+
+<section>
+<h2 class="title">🔥 Boss Thế Giới</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=1">
+<div class="card-content">
+<h3>Ma Đế Abyssor</h3>
+<p>Boss Ma Tộc sở hữu sức mạnh hắc ám và triệu hồi quỷ binh.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=2">
+<div class="card-content">
+<h3>Thiên Vương Seraphiel</h3>
+<p>Điều khiển ánh sáng và sử dụng thần lực để tiêu diệt kẻ địch.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=3">
+<div class="card-content">
+<h3>Cửu Vĩ Hồ Vương</h3>
+<p>Thủ lĩnh Yêu Tộc với tốc độ cực cao và các đòn đánh ảo ảnh.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="title">⚔ Vũ Khí Huyền Thoại</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=4">
+<div class="card-content">
+<h3>Kiếm Ánh Sáng</h3>
+<p>Tăng sát thương lên quái vật hắc ám.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=5">
+<div class="card-content">
+<h3>Liềm Hủy Diệt</h3>
+<p>Có tỉ lệ gây hiệu ứng chảy máu.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=6">
+<div class="card-content">
+<h3>Cung Thiên Không</h3>
+<p>Mũi tên phát nổ khi trúng mục tiêu.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="title">🌾 Cây Trồng Mới</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=7">
+<div class="card-content">
+<h3>Dưa Huyết Nguyệt</h3>
+<p>Nguyên liệu chế tạo thuốc hồi máu cao cấp.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=8">
+<div class="card-content">
+<h3>Lúa Thiên Giới</h3>
+<p>Thu hoạch để đổi điểm danh vọng.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/600/400?random=9">
+<div class="card-content">
+<h3>Hoa Linh Hồn</h3>
+<p>Dùng để nâng cấp trang bị và triệu hồi boss đặc biệt.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="server">
+<h2 class="title">📌 Thông Tin Server</h2>
+
+<center>
+<h3>IP: play.huyenthoaitutoc.net</h3>
+<br>
+<h3>Phiên bản: 1.21.x</h3>
+<br>
+<h3>Discord: discord.gg/yourserver</h3>
+</center>
+
+</section>
+
+<footer>
+<p>© 2026 Huyền Thoại Tứ Tộc</p>
+</footer>
+
+</body>
+  </html>
